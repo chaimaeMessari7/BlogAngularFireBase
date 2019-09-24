@@ -1,0 +1,14 @@
+<nav class="navbar navbar-light bg-light">
+  <form class="form-inline">
+    <!--list of posts-->
+    <li routerLinkActive="active" class="btn btn-sm btn-outline-secondary" (click)="post()"
+     >Posts</li>
+          <!--Add new post-->
+    <li routerLinkActive="active" class="btn btn-sm btn-outline-secondary"  (click)="newpost()">Nouveau
+      Post</li>
+  </form>
+</nav>
+
+
+
+<router-outlet></router-outlet>
